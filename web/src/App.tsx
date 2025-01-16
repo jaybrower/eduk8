@@ -1,17 +1,18 @@
 import { Routes, Route } from 'react-router';
-import Home from './pages/Home';
+import { Home } from './pages';
+import { Header, Footer } from './elements';
 import './App.css';
 
 const App = () => {
   return (
     <div id="app">
-      <header></header>
+      <Header />
       <main>
         <Routes>
           <Route index element={<Home />} />
         </Routes>
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }

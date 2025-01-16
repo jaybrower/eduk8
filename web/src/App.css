@@ -5,16 +5,6 @@
   --footer-height: 45px;
 }
 
-header {
-
-}
-
 main {
   padding-bottom: var(--footer-height);
-}
-
-footer {
-  bottom: 0;
-  height: var(--footer-height);
-  position: absolute;
 }
