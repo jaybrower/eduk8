@@ -1,2 +1,2 @@
 export * from './IUser';
-export * from './IStore';
+export * from './IState';
